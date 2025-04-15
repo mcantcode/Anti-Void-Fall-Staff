@@ -1,6 +1,6 @@
-# Anti Staff
+# Anti Void Fall Staff
 
-A script that runs on Roblox executor, and kicks the player out of the game if a [Void Fall's staff](https://www.roblox.com/communities/33986332/VF-Staff-Team#!/about) is detected.
+A script that runs on Roblox executor, and kicks the player out of the game if a Void Fall's game staff is detected.
 
 ## Showcase
 
@@ -10,7 +10,7 @@ A script that runs on Roblox executor, and kicks the player out of the game if a
 
 * Simple, and easy to use.
 * Lightweight, and optimized for performance.
-* Retrieves the role of the detected staff (moderator, admin, etc.).
+* Retrieves informations of the detected staff (username, roles, etc.).
 * Ignore friend feature that ignores staff if it's friends with the player.
 
 
