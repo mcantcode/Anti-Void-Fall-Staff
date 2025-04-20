@@ -1,15 +1,15 @@
 local players = game:GetService("Players")
 local localPlayer = players.LocalPlayer
 
-local vfStaffGroupId = 33986332
+local groupId = 33986332
 
 local function kickIfStaff(player)
 	if getgenv()["Ignore Friend"] and player:IsFriendsWith(localPlayer.UserId) then
 		return
 	end
 
-	if player:IsInGroup(vfStaffGroupId) then
-		localPlayer:Kick("Staff detected: " .. player.Name .. " (" .. player:GetRoleInGroup(vfStaffGroupId) .. ").")
+	if player:IsInGroup(groupId) then
+		localPlayer:Kick("Staff detected: " .. player.Name .. " (" .. player:GetRoleInGroup(groupId) .. ").")
 	end
 
 	if game.PlaceId == 15186202290 then
