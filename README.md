@@ -18,7 +18,7 @@ A script that runs on Roblox executor, and kicks the player out of the game if a
 
 To configure the ignore friend feature, set `getgenv()["Ignore Friend"]` to either true or false as a bool in the script. Example:
 
-```lua
+```luau
 getgenv()["Ignore Friend"] = true
 ```
 
